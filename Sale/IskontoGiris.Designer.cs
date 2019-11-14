@@ -38,18 +38,20 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(215, 45);
+            this.labelControl1.Location = new System.Drawing.Point(184, 34);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(214, 30);
+            this.labelControl1.Size = new System.Drawing.Size(172, 23);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "İskonto türünü seçiniz.";
             // 
             // btnTl
             // 
             this.btnTl.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnTl.ImageOptions.SvgImage")));
-            this.btnTl.Location = new System.Drawing.Point(28, 122);
+            this.btnTl.Location = new System.Drawing.Point(24, 93);
+            this.btnTl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTl.Name = "btnTl";
-            this.btnTl.Size = new System.Drawing.Size(250, 90);
+            this.btnTl.Size = new System.Drawing.Size(214, 69);
             this.btnTl.TabIndex = 1;
             this.btnTl.Text = "TL Bazlı";
             this.btnTl.Click += new System.EventHandler(this.btnTl_Click);
@@ -57,21 +59,23 @@
             // btnYuzde
             // 
             this.btnYuzde.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnYuzde.ImageOptions.SvgImage")));
-            this.btnYuzde.Location = new System.Drawing.Point(361, 122);
+            this.btnYuzde.Location = new System.Drawing.Point(309, 93);
+            this.btnYuzde.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnYuzde.Name = "btnYuzde";
-            this.btnYuzde.Size = new System.Drawing.Size(250, 90);
+            this.btnYuzde.Size = new System.Drawing.Size(214, 69);
             this.btnYuzde.TabIndex = 2;
             this.btnYuzde.Text = "Yüzde Bazlı";
             this.btnYuzde.Click += new System.EventHandler(this.btnYuzde_Click);
             // 
             // IskontoGiris
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 275);
+            this.ClientSize = new System.Drawing.Size(560, 210);
             this.Controls.Add(this.btnYuzde);
             this.Controls.Add(this.btnTl);
             this.Controls.Add(this.labelControl1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "IskontoGiris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IskontoGırıs";

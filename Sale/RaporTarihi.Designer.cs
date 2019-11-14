@@ -45,7 +45,7 @@
             this.dtPickerIlk.Location = new System.Drawing.Point(153, 82);
             this.dtPickerIlk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtPickerIlk.Name = "dtPickerIlk";
-            this.dtPickerIlk.Size = new System.Drawing.Size(172, 22);
+            this.dtPickerIlk.Size = new System.Drawing.Size(172, 21);
             this.dtPickerIlk.TabIndex = 1;
             this.dtPickerIlk.ValueChanged += new System.EventHandler(this.dtPickerIlk_ValueChanged);
             // 
@@ -56,7 +56,7 @@
             this.dtPickerSon.Location = new System.Drawing.Point(153, 135);
             this.dtPickerSon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtPickerSon.Name = "dtPickerSon";
-            this.dtPickerSon.Size = new System.Drawing.Size(172, 22);
+            this.dtPickerSon.Size = new System.Drawing.Size(172, 21);
             this.dtPickerSon.TabIndex = 2;
             this.dtPickerSon.ValueChanged += new System.EventHandler(this.dtPickerSon_ValueChanged);
             // 
