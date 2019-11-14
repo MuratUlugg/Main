@@ -42,7 +42,7 @@
             // 
             this.dtPickerIlk.CustomFormat = "";
             this.dtPickerIlk.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtPickerIlk.Location = new System.Drawing.Point(153, 82);
+            this.dtPickerIlk.Location = new System.Drawing.Point(156, 70);
             this.dtPickerIlk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtPickerIlk.Name = "dtPickerIlk";
             this.dtPickerIlk.Size = new System.Drawing.Size(172, 21);
@@ -53,7 +53,7 @@
             // 
             this.dtPickerSon.CustomFormat = "";
             this.dtPickerSon.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtPickerSon.Location = new System.Drawing.Point(153, 135);
+            this.dtPickerSon.Location = new System.Drawing.Point(156, 113);
             this.dtPickerSon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtPickerSon.Name = "dtPickerSon";
             this.dtPickerSon.Size = new System.Drawing.Size(172, 21);
@@ -64,7 +64,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(66, 16);
+            this.labelControl1.Location = new System.Drawing.Point(13, 11);
             this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(348, 21);
@@ -75,7 +75,7 @@
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(23, 84);
+            this.labelControl2.Location = new System.Drawing.Point(26, 72);
             this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(124, 20);
@@ -87,7 +87,7 @@
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(58, 136);
+            this.labelControl3.Location = new System.Drawing.Point(61, 114);
             this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(89, 20);
@@ -97,7 +97,7 @@
             // btnOnay
             // 
             this.btnOnay.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnOnay.ImageOptions.SvgImage")));
-            this.btnOnay.Location = new System.Drawing.Point(81, 193);
+            this.btnOnay.Location = new System.Drawing.Point(48, 169);
             this.btnOnay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOnay.Name = "btnOnay";
             this.btnOnay.Size = new System.Drawing.Size(116, 64);
@@ -108,7 +108,7 @@
             // btnIptal
             // 
             this.btnIptal.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnIptal.ImageOptions.SvgImage")));
-            this.btnIptal.Location = new System.Drawing.Point(249, 193);
+            this.btnIptal.Location = new System.Drawing.Point(216, 169);
             this.btnIptal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnIptal.Name = "btnIptal";
             this.btnIptal.Size = new System.Drawing.Size(116, 64);
@@ -120,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 343);
+            this.ClientSize = new System.Drawing.Size(398, 257);
             this.Controls.Add(this.btnIptal);
             this.Controls.Add(this.btnOnay);
             this.Controls.Add(this.labelControl3);
