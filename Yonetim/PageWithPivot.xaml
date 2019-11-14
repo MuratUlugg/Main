@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Yonetim.PageWithPivot"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Yonetim"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Layout="using:DevExpress.UI.Xaml.Layout"
+    mc:Ignorable="d">
+
+    <Layout:PivotPageContent HeadersViewMode="Single">
+        <!-- Place your pivot items here. -->
+        <PivotItem Header="Item1" >
+            <TextBlock Text = "Item1" />
+        </PivotItem>
+        <PivotItem Header="Item2" >
+            <TextBlock Text = "Item2" />
+        </PivotItem>
+        <PivotItem Header="Item3" >
+            <TextBlock Text = "Item3" />
+        </PivotItem>
+    </Layout:PivotPageContent>
+</Page>
