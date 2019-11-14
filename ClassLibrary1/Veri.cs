@@ -50,7 +50,7 @@ namespace ClassLibrary1
         public void kontrolDurumu()
         {
             SqlConnection kontrol = new SqlConnection();
-            kontrol.ConnectionString = "Server=.\\" + IniIslemleri.VeriOku("Sunucu Bilgileri", "SunucuAdi") + ";Database=MORDOR1;User ID=" + IniIslemleri.VeriOku("Kullanıcı Bilgileri", "KullaniciAdi") + ";Password=" + IniIslemleri.VeriOku("Şifre Bilgileri", "sifre") + ";MultipleActiveResultSets=True";
+            kontrol.ConnectionString = "Server=.\\" + IniIslemleri.VeriOku("Sunucu Bilgileri", "SunucuAdi") + ";Database=MORDOR;User ID=" + IniIslemleri.VeriOku("Kullanıcı Bilgileri", "KullaniciAdi") + ";Password=" + IniIslemleri.VeriOku("Şifre Bilgileri", "sifre") + ";MultipleActiveResultSets=True";
 
             try
             {
